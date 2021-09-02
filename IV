@@ -1,0 +1,4 @@
+library(InformationValue) 
+
+IV <- create_infotables(data = database, y = "var_y")
+IV$Summary
