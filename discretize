@@ -1,0 +1,4 @@
+data <- as.data.frame(data)
+
+var_otim <-smbinning(df=data,y="var_y",x="var_x",p=0.05) 
+data<-smbinning.gen(data,var_otim, chrname="var_otim" )
